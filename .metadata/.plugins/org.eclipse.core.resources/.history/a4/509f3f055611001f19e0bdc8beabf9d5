@@ -1,0 +1,5 @@
+package Apllication;
+
+public @interface README {
+
+}
