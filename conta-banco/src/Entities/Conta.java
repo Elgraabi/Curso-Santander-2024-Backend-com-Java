@@ -25,10 +25,10 @@ public class Conta {
 	@Override
 	public String toString() {
 		return "Olá " + this.nomeCliente + 
-			   ", obrigado por criar uma conta em nosso banco, " +
+			   ", obrigado por criar uma conta em\nnosso banco, " +
 			   "sua agência é " + this.agencia + 
-			   ", conta " + this.numero + 
-			   " e seu saldo " + this.saldo + "já está disponível para saque";
+			   ", conta " + this.numero + "\n" +
+			   "e seu saldo " + this.saldo + " já está disponível para saque";
 	}
 
 	public int getNumero() {
