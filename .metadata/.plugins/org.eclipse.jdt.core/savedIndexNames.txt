@@ -4,7 +4,6 @@ INDEX VERSION 1.134+E:\eclipse-Workspace\Santander-2024-Backend-com-Java\.metada
 2990517954.index
 794945367.index
 677983820.index
-2899663157.index
 4038762136.index
 2625372079.index
 3579222982.index
