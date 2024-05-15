@@ -16,13 +16,13 @@ public class Program {
 			
 			// Regras para Nomes de Variáveis
 				// Exemplo de Nomes de Variáveis Válidos:
-				int idade;
+				int idade1;
 				double alturaDoUsuario;
 				String nomeCompleto;
 				// Exemplo de Nomes de Variáveis Inválidos:
-				int 2numero; // Começa com um dígito
-				double altura do usuario; // Contém espaços
-				String class; // Usa palavra-chave reservada
+				// int 2numero;  Começa com um dígito
+				// double altura do usuario; // Contém espaços
+				// String class; // Usa palavra-chave reservada
 
 	}
 
