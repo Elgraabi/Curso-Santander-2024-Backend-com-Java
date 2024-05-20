@@ -33,24 +33,25 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 ---
 classDiagram
     class ReprodutorMusical {
+        <<interface>>
         +tocar()
         +pausar()
         +selecionarMusica(musica: String)
     }
 
     class AparelhoTelefonico {
+        <<interface>>
         +ligar(numero: String)
         +atender()
         +iniciarCorreioVoz()
     }
 
     class NavegadorInternet {
+        <<interface>>
         +exibirPagina(url: String)
         +adicionarNovaAba()
         +atualizarPagina()
     }
-
-    class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet
 
     ReprodutorMusical <|-- iPhone
     AparelhoTelefonico <|-- iPhone
