@@ -28,6 +28,9 @@ Com base no vídeo de lançamento do iPhone de 2007 (link abaixo), você deve el
 ### Exemplo de Diagrama UML (Mermaid)
 
 ```mermaid
+---
+    title: Modelo de Diagrama de Classes
+---
 classDiagram
     class ReprodutorMusical {
         +tocar()
