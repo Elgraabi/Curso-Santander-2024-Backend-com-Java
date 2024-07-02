@@ -51,6 +51,108 @@ Imagine que tudo isso é como uma grande festa de aniversário:
 - **O Cartão** é uma varinha mágica que você usa para comprar brinquedos.
 - **As Notícias** são como as surpresas e novidades da festa.
 
+## [Link do Figma](https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=1421%3A432&mode=design&t=6dPQuerScEQH0zAn-1)
+
+O Figma foi utilizado para a abstração do domínio desta API, sendo útil na análise e projeto da solução.
+
+Claro! Vou explicar cada parte desse código JSON:
+
+### Estrutura do JSON
+
+{
+  "name": "Nome",
+  "account": {
+    "number": "00000000-0",
+    "agency": "0000",
+    "balance": 1324.64,
+    "limit": 1000.00
+  },
+  "features": [
+    {
+      "icon": "URL",
+      "description": "Descrição da Feature"
+    }
+  ],
+  "card": {
+    "number": "xxxx xxxx xxxx 0000",
+    "limit": 1000.00
+  },
+  "news": [
+    {
+      "icon": "URL",
+      "description": "Descrição da Novidade"
+    }
+  ]
+}
+
+
+O JSON fornecido representa informações de uma conta bancária, características do banco, um cartão associado e notícias. Aqui está a explicação detalhada:
+
+1. **name**: O nome do titular da conta.
+   ```json
+   "name": "Nome"
+   ```
+   - **"name"**: Chave que identifica o nome do titular da conta.
+   - **"Nome"**: Valor representando o nome do titular da conta.
+
+2. **account**: Um objeto que contém detalhes sobre a conta bancária.
+   ```json
+   "account": {
+     "number": "00000000-0",
+     "agency": "0000",
+     "balance": 1324.64,
+     "limit": 1000.00
+   }
+   ```
+   - **"number"**: Número da conta.
+   - **"agency"**: Número da agência.
+   - **"balance"**: Saldo atual da conta.
+   - **"limit"**: Limite de crédito da conta.
+
+3. **features**: Uma lista de objetos que descrevem as características associadas à conta.
+   ```json
+   "features": [
+     {
+       "icon": "URL",
+       "description": "Descrição da Feature"
+     }
+   ]
+   ```
+   - **"icon"**: URL de um ícone que representa a característica.
+   - **"description"**: Descrição da característica.
+
+4. **card**: Informações sobre o cartão bancário associado à conta.
+   ```json
+   "card": {
+     "number": "xxxx xxxx xxxx 0000",
+     "limit": 1000.00
+   }
+   ```
+   - **"number"**: Número do cartão (parcialmente oculto por razões de segurança).
+   - **"limit"**: Limite de crédito do cartão.
+
+5. **news**: Uma lista de objetos que descrevem notícias ou novidades relacionadas à conta.
+   ```json
+   "news": [
+     {
+       "icon": "URL",
+       "description": "Descrição da Novidade"
+     }
+   ]
+   ```
+   - **"icon"**: URL de um ícone que representa a notícia.
+   - **"description"**: Descrição da novidade.
+
+### Resumo
+
+- **name**: O nome do titular da conta.
+- **account**: Detalhes da conta bancária (número da conta, agência, saldo, limite).
+- **features**: Características associadas à conta, cada uma com um ícone e uma descrição.
+- **card**: Informações sobre o cartão bancário, incluindo o número (parcialmente oculto) e o limite.
+- **news**: Notícias ou novidades relacionadas à conta, cada uma com um ícone e uma descrição.
+
+Esse formato JSON é útil para estruturar e organizar informações de forma que possam ser facilmente manipuladas e exibidas em uma aplicação bancária ou financeira. Se precisar de mais detalhes ou de alguma modificação específica, é só avisar!
+
 ### Desenho do Cofrinho Mágico
 
 Aqui está um desenho simples para mostrar como tudo isso está conectado:
