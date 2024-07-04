@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.servers.Server;
 
-@OpenAPIDefinition(servers = {@Server(url = "/", description = "Default ServerURL")})
+@OpenAPIDefinition(servers = { @Server(url = "/", description = "Default ServerURL") })
 @SpringBootApplication
 public class SantanderDevWeek2024Application {
 
